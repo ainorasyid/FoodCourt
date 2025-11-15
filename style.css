@@ -1,0 +1,48 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    border: 1px solid;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+img {
+    max-height: 200px;
+}
+
+.menu {
+    max-height: 100px;
+}
+
+.link {
+    text-align: center;
+}
+
+.content {
+    border: 1px solid;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #313647;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
